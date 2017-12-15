@@ -14,6 +14,7 @@
 		F8CBC8491FE36B16002CFEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CBC8471FE36B16002CFEEB /* LaunchScreen.storyboard */; };
 		F8CBC84C1FE36B16002CFEEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBC84B1FE36B16002CFEEB /* main.m */; };
 		F8CBC8551FE36B43002CFEEB /* NSObject+RetainKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBC8541FE36B43002CFEEB /* NSObject+RetainKVO.m */; };
+		F8CBC8581FE396D6002CFEEB /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBC8571FE396D6002CFEEB /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F8CBC84B1FE36B16002CFEEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8CBC8531FE36B43002CFEEB /* NSObject+RetainKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RetainKVO.h"; sourceTree = "<group>"; };
 		F8CBC8541FE36B43002CFEEB /* NSObject+RetainKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RetainKVO.m"; sourceTree = "<group>"; };
+		F8CBC8561FE396D6002CFEEB /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		F8CBC8571FE396D6002CFEEB /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				F8CBC83D1FE36B16002CFEEB /* AppDelegate.m */,
 				F8CBC83F1FE36B16002CFEEB /* ViewController.h */,
 				F8CBC8401FE36B16002CFEEB /* ViewController.m */,
+				F8CBC8561FE396D6002CFEEB /* TestClass.h */,
+				F8CBC8571FE396D6002CFEEB /* TestClass.m */,
 				F8CBC8421FE36B16002CFEEB /* Main.storyboard */,
 				F8CBC8451FE36B16002CFEEB /* Assets.xcassets */,
 				F8CBC8471FE36B16002CFEEB /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CBC8581FE396D6002CFEEB /* TestClass.m in Sources */,
 				F8CBC8411FE36B16002CFEEB /* ViewController.m in Sources */,
 				F8CBC8551FE36B43002CFEEB /* NSObject+RetainKVO.m in Sources */,
 				F8CBC84C1FE36B16002CFEEB /* main.m in Sources */,
@@ -294,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YHKVOController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yh.YHKVOController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YHKVOController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yh.YHKVOController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
