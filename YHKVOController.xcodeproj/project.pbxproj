@@ -13,6 +13,7 @@
 		F8CBC8461FE36B16002CFEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CBC8451FE36B16002CFEEB /* Assets.xcassets */; };
 		F8CBC8491FE36B16002CFEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CBC8471FE36B16002CFEEB /* LaunchScreen.storyboard */; };
 		F8CBC84C1FE36B16002CFEEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBC84B1FE36B16002CFEEB /* main.m */; };
+		F8CBC8551FE36B43002CFEEB /* NSObject+RetainKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBC8541FE36B43002CFEEB /* NSObject+RetainKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F8CBC8481FE36B16002CFEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8CBC84A1FE36B16002CFEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8CBC84B1FE36B16002CFEEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8CBC8531FE36B43002CFEEB /* NSObject+RetainKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RetainKVO.h"; sourceTree = "<group>"; };
+		F8CBC8541FE36B43002CFEEB /* NSObject+RetainKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RetainKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		F8CBC83B1FE36B16002CFEEB /* YHKVOController */ = {
 			isa = PBXGroup;
 			children = (
+				F8CBC8521FE36B43002CFEEB /* YHKVOController */,
 				F8CBC83C1FE36B16002CFEEB /* AppDelegate.h */,
 				F8CBC83D1FE36B16002CFEEB /* AppDelegate.m */,
 				F8CBC83F1FE36B16002CFEEB /* ViewController.h */,
@@ -67,6 +71,15 @@
 				F8CBC8471FE36B16002CFEEB /* LaunchScreen.storyboard */,
 				F8CBC84A1FE36B16002CFEEB /* Info.plist */,
 				F8CBC84B1FE36B16002CFEEB /* main.m */,
+			);
+			path = YHKVOController;
+			sourceTree = "<group>";
+		};
+		F8CBC8521FE36B43002CFEEB /* YHKVOController */ = {
+			isa = PBXGroup;
+			children = (
+				F8CBC8531FE36B43002CFEEB /* NSObject+RetainKVO.h */,
+				F8CBC8541FE36B43002CFEEB /* NSObject+RetainKVO.m */,
 			);
 			path = YHKVOController;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8CBC8411FE36B16002CFEEB /* ViewController.m in Sources */,
+				F8CBC8551FE36B43002CFEEB /* NSObject+RetainKVO.m in Sources */,
 				F8CBC84C1FE36B16002CFEEB /* main.m in Sources */,
 				F8CBC83E1FE36B16002CFEEB /* AppDelegate.m in Sources */,
 			);
