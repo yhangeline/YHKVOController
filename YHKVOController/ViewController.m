@@ -22,8 +22,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
-    
     [self yh_observeObject:self.testObj forKeyPath:@"name" options:NSKeyValueObservingOptionNew block:^(NSString *keyPath, id object, NSDictionary<NSKeyValueChangeKey,id> *change) {
         NSLog(@"name changed : %@",change);
     }];
