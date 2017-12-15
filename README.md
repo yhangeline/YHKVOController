@@ -32,4 +32,4 @@
 	
 ```
 
-这里在block中使用self会造成循环引用，应改为weakSelf 
+这里实现的时候self对block间接强引用了，使用self会造成循环引用，应改为weakSelf。暂时还未想到解决方法-。-
