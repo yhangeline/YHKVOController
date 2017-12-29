@@ -27,9 +27,9 @@
 
 ```
 [self yh_observeObject:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew block:^(NSString *keyPath, id object, NSDictionary<NSKeyValueChangeKey,id> *change) {
-        [self doSomething];
+        [weakSelf doSomething];
     }];
 	
 ```
 
-这里实现的时候self对block间接强引用了，使用self会造成循环引用，应改为weakSelf。暂时还未想到解决方法-。-
+这里实现的时候self对block间接强引用了，使用self会造成循环引用，

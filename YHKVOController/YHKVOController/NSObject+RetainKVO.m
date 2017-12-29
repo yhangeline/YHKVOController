@@ -29,10 +29,10 @@ static void *_YHKVOControllerKey = &_YHKVOControllerKey;
 {
     self = [super init];
     if (self) {
-        _object = object;
-        _keyPath = [keyPath copy];
-        _options = options;
-        _block = [block copy];
+        self.object = object;
+        self.keyPath = keyPath;
+        self.options = options;
+        self.block = block;
     }
     return self;
 }

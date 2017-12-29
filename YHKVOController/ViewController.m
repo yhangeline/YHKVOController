@@ -31,6 +31,7 @@
         NSLog(@"title changed : %@",change);
         NSLog(@"%@",ws.title);
     }];
+    
 }
 
 
