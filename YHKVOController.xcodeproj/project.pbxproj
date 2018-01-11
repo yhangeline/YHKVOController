@@ -48,8 +48,8 @@
 		F8CBC8301FE36B16002CFEEB = {
 			isa = PBXGroup;
 			children = (
-				F8CBC83B1FE36B16002CFEEB /* YHKVOController */,
 				F8CBC83A1FE36B16002CFEEB /* Products */,
+				F8CBC83B1FE36B16002CFEEB /* YHKVOController */,
 			);
 			sourceTree = "<group>";
 		};
