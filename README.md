@@ -29,12 +29,12 @@
 [self yh_observeObject:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew block:^(NSString *keyPath, id object, NSDictionary<NSKeyValueChangeKey,id> *change) {
         [weakSelf doSomething];
     }];
-	
+
 ```
 
 这里实现的时候self对block间接强引用了，使用self会造成循环引用，
 
-###Cocoapods安装
+### Cocoapods安装
 
 1.在Podfile中添加 ``pod "YHKVOController"``  
 2.执行 ``pod install`` 或者 ``pod update``
